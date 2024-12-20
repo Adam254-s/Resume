@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,90&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+	padding: 2px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+h3 {
+    display: block;
+    font-size: 1.7em;
+    margin-block-start: 1.2em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+	padding: 10px;
+	list-style: none;
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff; 
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left_Side {
+  position: relative;
+  background: lightblue;
+  padding: 40px;
+}
+
+.container .right_Side {
+  position: relative;
+  background: #fff;
+  padding: 40px;
+  line-height: 1.6; 
+}
+
+.contact .icon {
+  display: inline-block;
+  vertical-align: middle; 
+  margin-right: 10px; 
+  font-size: 1.5em;
+  color: orange; 
+}
+
+.contact ul {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.contact ul li {
+  display: flex;
+  align-items: center; 
+  margin-bottom: 15px; 
+  padding: 10px;
+}
+
+.contact .text, .contact .linkedin, .contact address {
+  color: darkgreen; 
+  font-size: 1em;
+}
+
+.contactInfo .title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px; 
+}
+
+.contactInfo ul li .icon {
+  font-size: 1.2em; 
+  margin-right: 15px;
+}
+
+
+.contactInfo ul li span {
+  font-size: 1.2em;
+  color: red;
+  font-weight: 300;
+}
+
+.contactInfo.education li
+{
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.contactInfo.education h5
+{
+  color: green;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+
+.contactInfo.education h4:nth-child(2)
+{
+  color: #492f00;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+.contactInfo.education h4
+{
+  color: #1200ff;
+  font-weight: 300;
+}
